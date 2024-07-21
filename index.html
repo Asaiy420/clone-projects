@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Site</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+                <div id="logo">
+                    <img src="data:image/png;base64,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">
+                </div>
+                <div class="text"><p>Products</p></div>
+                <div class="text"><p>Industries</p></div>
+                <div class="text"><p>Customers</p></div>
+                <div class="text"><p>Learning</p></div>
+                <div class="text"><p>Support</p></div>
+                <div class="text">
+                    <p>More</p>
+                    <i class="ri-arrow-down-s-line"></i>
+                </div>
+                <div id="contactDetails">
+                    <p style="text-align: center;"><u>Contact Us</u></p>
+                    <p>0000-000-0000</p>
+                </div>
+                <div class="icon"><i class="ri-search-line"></i></div>
+                <div class="icon"><i class="ri-global-line"></i></div>
+                <div id="login">
+                    <i class="ri-user-3-fill"></i>
+                    <p>Login</p>
+                </div>
+                <div id="try">
+                    <p>Try For Free</p>
+                </div>
+        </div>
+        <div id="fakehead"></div>
+        <div id="page1">
+            <div id="strip"><p>JUST ANNOUNCED: See why Gartner recognized Soleface as a Leader in Customer Data Platforms.</p>
+                <u>Read the Report</u>
+            </div>
+            <div id="content">
+                <div id="box1"><h1>Try Salesforce Starter Suite for free.</h1>
+                    <p>Unite marketing, sales, and service in a single app. Try Salesforce Starter Suite today. There's nothing to install. No credit card required.</p>
+
+                    <div id="btns">
+                        <div id="btn1">Start Free Trial <i class="ri-share-box-line"></i></div>
+                        <div id="btn2">Watch the Demo <i class="ri-share-box-line"></i></div>
+                    </div>
+                
+                </div>
+                <div id="box2">
+                    <img src="https://wp.salesforce.com/en-ap/wp-content/uploads/sites/14/2024/02/php-marquee-starter-lg-bg.jpg?resize=1536,480" alt="">
+                </div>
+            </div>
+            <div id="heading"><h1>Learn what Salesforce products can do for you.</h1></div>
+        </div>
+        <div id="page2"></div>
+    </div>
+    
+</body>`
+</html>
